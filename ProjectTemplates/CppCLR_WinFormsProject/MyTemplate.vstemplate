@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>C++/CLR Windows Forms Project</Name>
+    <Description>Write Windows programs with a graphical user interface in C++. With Windows Forms projects in Visual Studio 2019 you can use Standard C++11/C++14/C++17 for your business logic. To access the Windows user interface controls, use C++/CLR (a C++ dialect).</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>CppCLR_WinformsProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <LanguageTag>C++</LanguageTag>
+    <PlatformTag>windows</PlatformTag>
+    <ProjectTypeTag>desktop</ProjectTypeTag>
+    <TemplateID>CppCLR_WinformsProject</TemplateID>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="CppCLR_WinformsProject.vcxproj" File="CppCLR_WinformsProject.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">CppCLR_WinformsProject.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="AssemblyInfo.cpp">AssemblyInfo.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="CppCLR_WinformsProject.cpp">CppCLR_WinformsProject.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Form1.cpp">Form1.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="pch.cpp">pch.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Form1.h">Form1.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="pch.h">pch.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Resource.h">Resource.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="app.rc">app.rc</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="app.ico">app.ico</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

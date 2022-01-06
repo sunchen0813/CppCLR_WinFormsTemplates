@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="CppCLR_WinFormsTemplates" Version="0.0.1" Language="en-US" Publisher="NoPublisher" />
+    <DisplayName>C++/CLR Windows Forms</DisplayName>
+    <Description xml:space="preserve">Write Windows programs with a graphical user interface in C++. With Windows Forms projects in Visual Studio 2017, 2019 and 2022 you can use Standard C++11/C++14/C++17 for your business logic. To access the Windows user interface controls, use C++/CLI (a C++ dialect). </Description>
+    <Icon>CPPWin32Project_256x.png</Icon>
+    <PreviewImage>CPPWin32Project_256x.png</PreviewImage>
+    <Preview>true</Preview>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\CppCLR_WinformsProject.zip" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,18.0)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.ManagedDesktop.Prerequisites" Version="[15.0,18.0)" DisplayName=".NET desktop development tools" />
+  </Prerequisites>
+</PackageManifest>
